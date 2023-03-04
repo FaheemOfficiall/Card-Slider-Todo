@@ -1,0 +1,14 @@
+
+.main{
+    display: grid;
+    grid-auto-flow: column;
+    
+
+    overflow-x: auto;
+
+    overscroll-behavior-inline: contain;
+}
+.dec{
+    border: none;
+}
+

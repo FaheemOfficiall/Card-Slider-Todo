@@ -1,0 +1,27 @@
+/* @import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css"; */
+
+.media-scroller{
+    --spacer:1rem;
+    display: grid;
+    gap: var(--spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 20%;
+ 
+    padding: 0 var(--spacer) var(--spacer);
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+.media-element{
+    display: grid;
+    grid-template-rows: min-content;
+    padding: var(--spacer);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+}
+.mg{
+    inline-size: 100%;
+    aspect-ratio: 11/9;
+
+}
